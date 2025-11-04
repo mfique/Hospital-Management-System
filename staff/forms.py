@@ -16,5 +16,7 @@ class StaffForm(forms.ModelForm):
                 css_class = 'form-control'
             existing = field.widget.attrs.get('class', '')
             field.widget.attrs['class'] = (existing + ' ' + css_class).strip()
+            # Add sensible placeholders for better UX
+            field.widget.attrs.setdefault('placeholder', field.label)
 
 
