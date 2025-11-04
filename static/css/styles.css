@@ -1,0 +1,12 @@
+/* Global tweaks */
+body { background-color: #f8f9fa; }
+main.container { padding-top: 24px; padding-bottom: 48px; }
+
+/* Tables */
+.table thead th { background-color: #f1f3f5; }
+
+/* Forms */
+form .form-control, form .form-select, form textarea { max-width: 720px; }
+
+/* Buttons */
+.btn + .btn { margin-left: 8px; }
